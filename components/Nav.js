@@ -1,8 +1,7 @@
 import Link from 'next/link';
+
 const Nav = () =>{
     return(
-    //  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
-    //  font-family: 'Montserrat', sans-serif;
         <nav>
             <div className='logo'>
                 <h4>Marawi Warriors</h4>
@@ -25,19 +24,6 @@ const Nav = () =>{
                     <div className='bunbottom'/>
                 </div>
             </div>
-            <style global jsx>{`
-                *{
-                    box-sizing: border-box;
-                    margin: 0;
-                    padding: 0;
-                }
-            
-                @media screen and (max-width:760px){
-                    body{
-                        overflow-x: hidden;
-                    }
-                }
-            `}</style>
             <style jsx>{`
                 nav{
                     display: flex;

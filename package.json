@@ -4,12 +4,15 @@
   "description": "Example Application to get compatible with NextJs and  ReactJs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
   "author": "Rizalino Requiero",
   "license": "ISC",
   "dependencies": {
     "next": "^9.4.1",
+    "nprogress": "^0.2.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   }
