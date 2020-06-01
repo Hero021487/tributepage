@@ -2,8 +2,7 @@ import Layout from '../components/Layout';
 
 const Index = () =>{
     return(
-        <Layout>  
-            <h1>Battle of Marawi</h1>
+        <Layout title='Battle of Marawi'>  
 
             <img src='/afp.jpg' atl='Pic'/>
 

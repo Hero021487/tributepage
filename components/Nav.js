@@ -4,7 +4,9 @@ const Nav = () =>{
     return(
         <nav>
             <div className='logo'>
-                <h4>Marawi Warriors</h4>
+                <Link href='/'>
+                    <h4>Marawi Warriors</h4>
+                </Link>
             </div>
             <div>
                 <ul className='vanlink'>

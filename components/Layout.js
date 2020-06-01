@@ -12,6 +12,7 @@ Router.onRouterChangeComplete = ()=> NProgress.done();
 Router.onRouterChangeError = ()=> NProgress.done();
 
 
+
 function Layout({children, title}) {
     return (
         <div>
@@ -24,8 +25,9 @@ function Layout({children, title}) {
                 <h1>{title}</h1>
             </header>
 
-            
-            {children}
+            <div className='Container'>
+                {children}
+            </div>
         </div>
     )
 }
